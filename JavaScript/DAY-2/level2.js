@@ -49,9 +49,25 @@ let rand2 = Math.floor(Math.random() * (100 - 50) + 50);
 
 console.log(rand2)
 
+//11.	Generate a random number between 0 and 255 inclusively.
 
+let rand3 = Math.floor(Math.random() * 255);
 
+console.log(rand3)
 
+//12.	Access the 'JavaScript' string characters using a random number.
+
+let Access_s= 'JavaScript' 
+console.log(Access_s[5])
+
+//13. Use console.log() and escape characters to print the following pattern.
+
+console.log('1 1 1 1 1\t\n2 1 2 4 8\t\n3 1 3 9 27\t\n4 1 4 16 64\t\n5 1 5 25 125')
+
+//14.	Use substr to slice out the phrase because because because from the following 
+let slice_O='You cannot end a sentence with because because because is a conjunction'
+
+console.log(slice_O.substring(31,55))
 
 
 

@@ -29,7 +29,7 @@ console.log(c_name.replace('30 Days Of Python'))
 console.log(c_name.charAt(5,'30 Days Of Python'))
 // 14.	What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
 console.log(c_name.charCodeAt(5))
-//15.	Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
+//15.	Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript.
 console.log(c_name.indexOf('a'))
 //16.	Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
 console.log(c_name.lastIndexOf('a'))
@@ -52,9 +52,9 @@ console.log(s_name.endsWith('30 Days Of JavaScript'))
 //23.	Use match() method to find all the a’s in 30 Days Of JavaScript
 console.log(c_name.match('a'))
 //  24.	Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
-let a= '30 Days of',
-    b='JavaScript'
-console.log(a,b.concat())    
+let aa= '30 Days of',
+    bb='JavaScript'
+console.log(aa,bb.concat())    
 //25.	Use repeat() method to print 30 Days Of JavaScript 2 times
 console.log(c_name.repeat(2))
 
